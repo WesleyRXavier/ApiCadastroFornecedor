@@ -1,0 +1,10 @@
+CREATE TABLE users (
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+email VARCHAR(191) NOT NULL,
+name VARCHAR(191) NOT NULL,
+password VARCHAR(190) NOT NULL,
+avatar VARCHAR(190) NOT NULL
+
+);
+
+ALTER table users add unique (email);

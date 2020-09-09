@@ -1,0 +1,12 @@
+{
+    "env" : {
+        "MYSQL_USER" : "wesley",
+        "MYSQL_PASSWORD" : "wesley",
+        "MYSQL_DATABASE" : "apiforncecedores",
+        "MYSQL_HOST" : "localhost",
+        "MYSQL_PORT" : 3306,
+
+        "JWT_KEY":"segredo"
+
+            }
+}
